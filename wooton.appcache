@@ -1,0 +1,22 @@
+CACHE MANIFEST
+# 2013-01-05 10:54
+
+# Explicitly cached 'master entries'.
+CACHE:
+index.html
+css/main.less
+css/normalize.css
+javascript/less.js
+javascript/lawnchair.js
+javascript/zepto.js
+javascript/underscore.js
+javascript/backbone.js
+
+# Resources that require the user to be online.
+NETWORK:
+http://www.deliciousmorsel.com/
+
+# offline.html will be served in place of all other .html files
+FALLBACK:
+#*.html /offline.html
+

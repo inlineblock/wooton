@@ -1,0 +1,3 @@
+
+autocmd BufWritePost *.* silent :!./deploy
+

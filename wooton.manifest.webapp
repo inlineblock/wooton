@@ -1,0 +1,18 @@
+{
+  "name": "WootOn!",
+  "description": "A Woot.com viewer",
+  "launch_path": "/",
+  "developer": {
+    "name": "Delicious Morsel LLC",
+    "url": "http://deliciousmorsel.com",
+    "email": "dennis@deliciousmorsel.com"
+  },
+  "appcache_path": "/wooton.appcache",
+  "default_locale": "en",
+  "orientation": ["portrait" , "landscape-secondary"],
+  "permissions": {
+    "systemXHR": {
+      "description": "For gathering data from Woot"
+    }
+  }
+}
