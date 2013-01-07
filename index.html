@@ -1,15 +1,25 @@
 <!DOCTYPE html>
 <html>
-<!--html manifest="wooton.appcache"-->
   <head>
     <title>WootOn! For Web</title>
+
+    <meta name="viewport" content="initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<meta name="apple-touch-fullscreen" content="yes" />
+		
     <link rel="stylesheet" type="text/css" href="css/normalize.css" />    
+<script type="text/javascript">less = { env: 'development' };</script>
     <link rel="stylesheet/less" type="text/css" href="css/main.less" />    
-    <script src="javascript/less.js"></script>
-    <script src="javascript/lawnchair.js"></script>
-    <script src="javascript/zepto.js"></script>
-    <script src="javascript/underscore.js"></script>
-    <script src="javascript/backbone.js"></script>
+    <script src="javascript/vendors/less.js"></script>
+    <script src="javascript/vendors/x-tag.js"></script>
+    <script src="javascript/vendors/slidebox.js"></script>
+    <script src="javascript/vendors/lawnchair.js"></script>
+    <script src="javascript/vendors/jquery.js"></script>
+    <script src="javascript/vendors/underscore.js"></script>
+    <script src="javascript/underscore.custom.js"></script>
+    <script src="javascript/vendors/backbone.js"></script>
+    <script src="javascript/vendors/require.js" data-main="javascript/boot.js"></script>
   </head>
   <body>
   </body>
